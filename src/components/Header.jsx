@@ -8,6 +8,8 @@ export default function Header() {
             {/* <!-- Hamburger Menu --> */}
             <i className="bx bx-menu" id="menu-icon"></i>
     
+
+    {/* ROUTING ISSUE LIES IN NAVBAR */}
             <nav className="navbar">
                 <a href="#home" className="active">Home</a>
                 <a href="#about">About</a>
