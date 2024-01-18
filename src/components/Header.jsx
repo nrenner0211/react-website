@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header className="header">
-            <a href="#home" className="logo">
+            <a href="/home" className="logo">
                 nix<span>webdev</span>
             </a>
     
