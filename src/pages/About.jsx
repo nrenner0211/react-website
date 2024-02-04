@@ -14,7 +14,7 @@ export default function About() {
             <div className="about-content">
                 <h2 className="heading">About <span>Me</span></h2>
                 <h3>Web <span>Developer</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis a obcaecati earum neque, amet, maxime ipsum molestias accusamus ab nihil sit voluptates, delectus ut doloribus consequatur aliquam consequuntur. Perspiciatis, quas.</p>
+                <p>My name is Nicolette Renner. I`m a self-taught web developer and lover of all things tech. Persistent student of IT. </p>
                 <a href="https://www.linkedin.com/in/nicolette-renner/" className="btn">Read More</a>
             </div>
             </section>
