@@ -80,6 +80,8 @@ section {
   padding: 10rem 9% 2rem;
 }
 
+/* HOME */
+
 .home {
   display: flex;
   justify-content: center;
@@ -166,6 +168,8 @@ span {
   color: var(--text-color);
 }
 
+/* ABOUT */
+
 .about {
   display: flex;
   justify-content: center;
@@ -206,6 +210,8 @@ span {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
+
+/* SERVICES */
 
 .services h2 {
   margin-bottom: 5rem;
@@ -260,4 +266,113 @@ span {
 ::-webkit-scrollbar-track {
   background-color: rgba(0,0,0,0.608);
   width: 50px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+  background: var(--second-bg-color);
+}
+
+.portfolio h2 {
+  margin-bottom: 4rem;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.portfolio-container .portfolio-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+}
+
+.portfolio-box img {
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+.portfolio-box:hover img{
+  transform: scale(1.1);
+}
+
+.portfolio-box .portfolio-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 4rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.portfolio-box .portfolio-info:hover {
+  background: radial-gradient(rgba(0,0,0,0.105), var(--main-color));
+  transform: scale(1.1);
+}
+
+.portfolio-info h4{
+  font-size: 3rem;
+}
+
+.portfolio-info p {
+  font-size: 1.6rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.portfolio-info a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: var(--text-color);
+  border-radius: 50%;
+}
+
+.portfolio-info a i {
+  font-size: 3rem;
+  color: var(--second-bg-color);
+}
+
+/* CONTACT SECTION */
+
+.contact h2 {
+  margin-bottom: 3rem;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input, .contact textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  color: var(--text-color);
+  background-color: var(--second-bg-color);
+  border-radius: .8rem;
+  margin: 1rem 0;
+  resize: none;
 }
