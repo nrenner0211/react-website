@@ -1,13 +1,14 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function About() {
     return (
         <div>
-            <Header/>
+            <Header />
             <section className="about" id="about">
 
             <div className="about-img">
-                <img src="../public/icon-192x192.png" alt="Logo"/>
+                <img src="/icon-192x192.png" alt="Logo"/>
             </div>
 
             <div className="about-content">
@@ -17,6 +18,7 @@ export default function About() {
                 <a href="https://www.linkedin.com/in/nicolette-renner/" className="btn">Read More</a>
             </div>
             </section>
+            <Footer />
         </div>
     )
 }

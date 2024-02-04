@@ -7,9 +7,9 @@ export default function Home() {
             <Header/>
             <section className="home" id="home">
                 <div className="home-content">
-                    <h3>Hi</h3>
-                    <h1>Its nixwebdev</h1>
-                    <h3><span>Web developer</span> specializing in designing, creating, and editing websites</h3>
+                    <h3>Hi, its...</h3>
+                    <h1><span>nixwebdev</span></h1>
+                    <h3>Web development and IT solutions</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta beatae nulla, nemo nobis sed voluptatem ex amet voluptates minima inventore praesentium quaerat laboriosam animi nesciunt provident sit ullam qui fugit!</p>
 
                     <div className="social-icons">
@@ -20,7 +20,7 @@ export default function Home() {
                     <a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing" className="btn">Download CV</a>
                 </div>
                 <div className="home-image">
-                    <img src="../public/icon-192x192.png" alt="Logo"/>
+                    <img src="/icon-192x192.png" alt="Logo"/>
                 </div>
             </section>
             <Footer/>
