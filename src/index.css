@@ -13,7 +13,7 @@
   --bg-color: #101317;
   --second-bg-color: #17191b;
   --text-color: #fff;
-  --main-color: #00FFC5;
+  --main-color: #00ffff;
   --extra-color: #F15025;
 }
 
@@ -444,4 +444,83 @@ span {
   text-align: center;
   font-size: 12px;
   color: var(--text-color);
+}
+
+/*  MEDIA QUERIES, MOBILE OPTIMIZATION */
+
+@media(max-width:1200px){
+  html{
+    font-size: 65%;
+  }
+}
+
+@media(max-width:991px){
+  header{
+    padding: 2rem 3%;
+  }
+  section{
+    padding: 10rem 3% 2rem;
+  }
+  .services{
+    padding-bottom: 7rem;
+  }
+  .portfolio{
+    padding-bottom: 7rem;
+  }
+  .footer{
+    padding: 2rem 3%;
+  }
+}
+
+@media(max-width: 768px){
+  #menu-icon{
+    display: block;
+  }
+  .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: .1rem solid rgba(0,0,0,0.105);
+    display: none;
+  }
+
+  .navbar.active{
+    display: block;
+  }
+
+  .navbar a{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+
+  .home{
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .home-content h3{
+    font-size: 2.6rem;
+  }
+
+  .home-content h1{
+    font-size: 5rem;
+  }
+
+  .home-img img{
+    width: 70vw;
+    margin-top: 4rem;
+  }
+
+  .about{
+    flex-direction: column-reverse;
+  }
+
+  .about img{
+    width: 70vw;
+    margin-top: 4rem;
+  }
 }

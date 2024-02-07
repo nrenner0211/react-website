@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import aboutImage from '/src/headshot-img1.png';
 
 export default function About() {
     return (
@@ -8,7 +9,7 @@ export default function About() {
             <section className="about" id="about">
 
             <div className="about-img">
-                <img src="/icon-192x192.png" alt="Logo"/>
+                <img src={aboutImage} alt="Logo"/>
             </div>
 
             <div className="about-content">

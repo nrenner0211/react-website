@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import homeLogo from "/src/icon-512x512.png";
 
 export default function Home() {
     return (
@@ -20,7 +21,7 @@ export default function Home() {
                     <a href="https://docs.google.com/document/d/1DcumNcxWQ4piU0pmyhQcVcIc5guyQ-cl5WpNBM5FcEw/edit?usp=sharing" className="btn">Download CV</a>
                 </div>
                 <div className="home-image">
-                    <img src="/icon-192x192.png" alt="Logo"/>
+                    <img src={homeLogo} alt="Logo"/>
                 </div>
             </section>
             <Footer/>
