@@ -1,11 +1,7 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 export default function Services() {
     return (
         <div>
-            <Header/>
-            <section className="services">
+            <section className="services" id="services">
                 
                 <h2 className="heading">My <span>Services</span></h2>
 
@@ -33,7 +29,6 @@ export default function Services() {
                     </div>
                 </div>
             </section>
-        <Footer/>
-</div>
+        </div>
     )
 }

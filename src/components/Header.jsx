@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header className="header">
-            <a href="/home" className="logo">
+            <a href="#home" className="logo">
                 nix<span>webdev</span>
             </a>
     
@@ -9,12 +9,12 @@ export default function Header() {
             <i className="bx bx-menu" id="menu-icon"></i>
     
             <nav className="navbar">
-                <a href="/" className="active">Home</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-                <a href="/portfolio">Portfolio</a>
-                <a href="/services">Services</a>
-                <a href="/support">Support</a>
+                <a href="#home" className="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#services">Services</a>
+                <a href="#support">Support</a>
             </nav>
         </header>
     )
