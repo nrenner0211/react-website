@@ -1,11 +1,7 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 export default function Contact() {
     return (
         <div>
-            <Header/>
-            <section className="contact">
+            <section className="contact" id="contact">
 
                 <h2 className="heading">Contact <span>Me</span></h2>
 
@@ -20,7 +16,6 @@ export default function Contact() {
                 </form>
 
             </section>
-            <Footer/>
         </div>
     )
 }

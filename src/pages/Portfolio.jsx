@@ -1,10 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 export default function Portfolio() {
     return (
     <div>
-        <Header />
         <section className="portfolio" id="portfolio">
             <h2 className="heading">Featured <span>Projects</span></h2>
 
@@ -75,7 +71,6 @@ export default function Portfolio() {
             </div>
 
         </section>
-        <Footer />
     </div>
     )
 }
