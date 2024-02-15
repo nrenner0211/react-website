@@ -1,11 +1,8 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import homeLogo from "/src/icon-512x512.png";
 
 export default function Home() {
     return (
         <div>
-            <Header/>
             <section className="home" id="home">
                 <div className="home-content">
                     <h3>Hi, welcome to...</h3>
@@ -36,7 +33,6 @@ export default function Home() {
                     <img src={homeLogo} alt="Logo"/>
                 </div>
             </section>
-            <Footer/>
         </div>
     )
 }
