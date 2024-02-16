@@ -14,7 +14,7 @@ export default function Header() {
                 <a href="#contact">Contact</a>
                 <a href="#portfolio">Portfolio</a>
                 <a href="#services">Services</a>
-                <a href="#support">Support</a>
+                {/* <a href="#support">Support</a> */}
             </nav>
         </header>
     )
