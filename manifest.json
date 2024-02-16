@@ -1,7 +1,7 @@
 {
-    "name": "Nix Web Dev Nicolette Renner Web Developer Portfolio Website",
+    "name": "nixwebdev Nicolette Renner Freelance Web Developer Website",
     "short_name": "Web Developer Website",
-    "description": "Minimalist web developer website with about, services, and portfolio sections.",
+    "description": "Freelance web developer website with about, services, and portfolio sections.",
     "icons": [
         {
             "src": "/144.png",
