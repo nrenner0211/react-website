@@ -7,7 +7,7 @@ export default function Home() {
                 <div className="home-content">
                     <h1> <span>nixwebdev</span> </h1>
                     <h3>Web development and IT solutions</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta beatae nulla, nemo nobis sed voluptatem ex amet voluptates minima inventore praesentium quaerat laboriosam animi nesciunt provident sit ullam qui fugit!</p>
+                    <p>Optimized development. Workflow automation. Cutting edge solutions</p>
 
                     <div className="social-icons">
 
