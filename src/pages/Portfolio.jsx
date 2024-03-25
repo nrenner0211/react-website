@@ -5,9 +5,10 @@ import projImg2 from '../assets/gititdonesh.webp';
 export default function Portfolio() {
     return (
     <div>
-        <section className="portfolio" id="portfolio">
-            <h2 className="heading">Featured <span>Projects</span></h2>
 
+        <h2 className="heading">Featured <span>Projects</span></h2>
+        
+        <section className="portfolio" id="portfolio">
             <div className="portfolio-container">
                 <div className="portfolio-box">
                     <img src={projImg0} alt="" />

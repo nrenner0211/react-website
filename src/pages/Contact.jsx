@@ -27,10 +27,10 @@ export default function Contact() {
 
                 <form ref={form} onSubmit={sendEmail}>
                     <div className="input-box">
-                        <input id="name" type="text" placeholder="Name"/>
-                        <input id="email" type="email" placeholder="Email"/>
-                        <input id="subject" type="text" placeholder="Subject"/>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <input id="name" type="text" placeholder="Name" required/>
+                        <input id="email" type="email" placeholder="Email" required/>
+                        <input id="subject" type="text" placeholder="Subject" required/>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave a message! I won't bite :-)" required></textarea>
                     </div>
                     <input type="submit" value="Send" className="btn" />
                 </form>

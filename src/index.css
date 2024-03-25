@@ -273,6 +273,32 @@ span {
 
 .portfolio {
   background: var(--second-bg-color);
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 2rem;
+  padding: 10px;
+}
+
+.heading-container {
+  top:auto;
+  right:auto;
+  display: flex;
+
+}
+
+.portfolio::-webkit-scrollbar {
+  width: 15px;
+}
+
+.portfolio::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.portfolio::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.608);
+  border-radius: 10px; 
 }
 
 .portfolio h2 {
@@ -280,10 +306,10 @@ span {
 }
 
 .portfolio-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
+  scroll-snap-align: start;
 }
 
 .portfolio-container .portfolio-box {
@@ -294,8 +320,13 @@ span {
   display: flex;
 }
 
+.portfolio-box{
+  width: 40rem;
+  height: 30rem;
+}
+
 .portfolio-box img {
-  width: 100%;
+  max-width: 100%;
   transition: 0.5s ease;
 }
 
