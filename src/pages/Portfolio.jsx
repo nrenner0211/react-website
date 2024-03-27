@@ -1,6 +1,7 @@
 import projImg0 from '../assets/summa-screenshot.webp';
 import projImg1 from '../assets/dad-app.webp';
 import projImg2 from '../assets/gititdonesh.webp';
+import projImg3 from '../assets/3dsc.png';
 
 export default function Portfolio() {
     return (
@@ -14,7 +15,7 @@ export default function Portfolio() {
                     <img src={projImg0} alt="" />
                     <div className="portfolio-info">
                         <h4>AI Summarizer</h4>
-                        <p>100% RESPONSIVE SaaS website that summarizes articles by URL and saves history to local storage.</p>
+                        <p>Responsive SaaS website that summarizes articles by URL and saves history to local storage</p>
                         <a href="https://ai-summarizr.netlify.app/"><i className='bx bx-link'></i></a>
                     </div>
                 </div>
@@ -33,10 +34,21 @@ export default function Portfolio() {
 
             <div className="portfolio-container">
                 <div className="portfolio-box">
+                    <img src={projImg3} alt="" />
+                    <div className="portfolio-info">
+                        <h4>3D Website</h4>
+                        <p>Fun 3D galaxy webpage built with Three.js</p>
+                        <a href="https://nrenner0211.github.io/intergalactic-3d-resume/"><i className='bx bx-link'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="portfolio-container">
+                <div className="portfolio-box">
                     <img src={projImg2} alt="" />
                     <div className="portfolio-info">
                         <h4>Git it Done</h4>
-                        <p>Fetches open issues from Github API</p>
+                        <p>Fetches open issues from Github API and sorts by language</p>
                         <a href="https://nrenner0211.github.io/git-it-done/"><i className='bx bx-link'></i></a>
                     </div>
                 </div>

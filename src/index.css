@@ -6,11 +6,11 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 :root {
-  --bg-color: #101317;
+  --bg-color: #0c0d0e;
   --second-bg-color: #17191b;
   --text-color: #fff;
   --main-color: #00ffff;
@@ -83,6 +83,8 @@ section {
 /* HOME */
 
 .home {
+  background-image: url(./design/bg2.png);
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +98,7 @@ section {
 
 span {
   color: var(--main-color);
-  text-shadow: 0 0 15px var(--main-color);
+  text-shadow: 0 0 25px var(--main-color);
 }
 
 .home-content h3:nth-of-type(2){
@@ -112,13 +114,13 @@ span {
 
 .home-img {
   border-radius: 50%;
-  background-color: var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
+  cursor: pointer;
 }
 
 .home-img img {
   position: relative;
-  width: 35vw;
+  width: 25vw;
   border-radius: 50%;
   top: 1rem;
 }
@@ -175,19 +177,19 @@ span {
   justify-content: center;
   align-items: center;
   gap: 10rem;
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .about-img {
   border-radius: 50%;
-  border: 10px solid var(--main-color);
-  box-shadow: inset 0 0 25px var(--main-color),
-                  0 0 25px var(--main-color); 
+  border: 15px solid var(--main-color);
+  box-shadow: inset 0 0 75px var(--main-color),
+                  0 0 75px var(--main-color); 
 }
 
 .about-img img {
   position: relative;
-  width: 20vw;
+  width: 15vw;
   border-radius: 50%;
   top: 0.5rem;
   left: 0.25rem;
@@ -272,7 +274,7 @@ span {
 /* PORTFOLIO */
 
 .portfolio {
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
@@ -280,29 +282,19 @@ span {
   padding: 10px;
 }
 
-.heading-container {
-  top:auto;
-  right:auto;
-  display: flex;
-
-}
-
 .portfolio::-webkit-scrollbar {
-  width: 15px;
+  background-color: var(--main-color);
+  width: 20px;
 }
 
 .portfolio::-webkit-scrollbar-thumb {
-  background-color: var(--secondary-color);
+  background-color: var(--main-color);
   border-radius: 10px;
 }
 
 .portfolio::-webkit-scrollbar-track {
-  background-color: rgba(0,0,0,0.608);
-  border-radius: 10px; 
-}
-
-.portfolio h2 {
-  margin-bottom: 4rem;
+  background-color: var(--second-bg-color);
+  border-radius: 1rem; 
 }
 
 .portfolio-container {
@@ -315,6 +307,7 @@ span {
 .portfolio-container .portfolio-box {
   position: relative;
   border-radius: 2rem;
+  color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
@@ -328,6 +321,9 @@ span {
 .portfolio-box img {
   max-width: 100%;
   transition: 0.5s ease;
+  filter: blur(8px);
+  filter:drop-shadow(0 0 10px var(--main-color));
+  -webkit-filter: blur(5px);
 }
 
 .portfolio-box:hover img{
@@ -347,7 +343,7 @@ span {
   text-align: center;
   padding: 0 4rem;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.4s ease;
 }
 
 .portfolio-box .portfolio-info:hover {
@@ -399,12 +395,11 @@ span {
 }
 
 .contact form .input-box input, .contact textarea {
-  width: 100%;
-  padding: 1.5rem;
+  min-width: 75%;
+  padding: 1.3rem;
   font-size: 1.3rem;
-  color: var(--text-color);
-  background-color: var(--second-bg-color);
-  border-radius: .8rem;
+  color: var(--second-bg-color);
+  border-radius: 1rem;
   margin: 1rem 0;
   resize: none;
 }
@@ -414,7 +409,7 @@ span {
 .footer {
   position: relative;
   bottom: 0;
-  width: 100%;
+  min-width: 100%;
   padding: 40px 0;
   background-color: var(--second-bg-color);
 }
@@ -458,12 +453,12 @@ span {
 
 .footer ul li a {
   color: white;
-  border-bottom: 2px solid transparent;
-  transition: 0 3s ease;
+  border-bottom: 1.5px solid transparent;
+  transition: 0 3s ease-in-out;
 }
 
 .footer ul li a:hover {
-  border-bottom: 2px solid var(--main-color);
+  border-bottom: 1.5px solid var(--main-color);
 }
 
 .footer ul li {
