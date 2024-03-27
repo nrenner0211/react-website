@@ -17,7 +17,7 @@ export default function Services() {
                     <div className="services-box">
                     <i className='bx bxs-palette' ></i>
                         <h3>Creative Designs</h3>
-                        <p>Need help establishing your web presence? I can leverage coding to generate a truly unique background for your website</p>
+                        <p>I can leverage coding to generate unique art for your website</p>
                         <a href="#contact" className="btn">Contact Me</a>
                     </div>
 

@@ -6,8 +6,8 @@ export default function Home() {
             <section className="home" id="home">
                 <div className="home-content">
                     <h1> <span>nixwebdev</span> </h1>
-                    <h3>Web development and IT solutions</h3>
-                    <p>Optimized development. Workflow automation. Cutting edge solutions</p>
+                    <h3>Got web presence?</h3>
+                    <p>Your one-stop shop for creative designs, optimized performance, and digital marketing</p>
 
                     <div className="social-icons">
 

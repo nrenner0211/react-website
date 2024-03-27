@@ -1,4 +1,4 @@
-import aboutImage from '/src/headshot-img1.png';
+import aboutImage from '/src/assets/headshot2.jpg';
 
 export default function About() {
     return (
@@ -11,8 +11,8 @@ export default function About() {
 
             <div className="about-content">
                 <h2 className="heading">About <span>Me</span></h2>
-                <h3><span>Freelancer, Developer, Virtual Assistant</span></h3>
-                <p>Behind nixwebdev is just Niki, a tech savvy Virtual Assistant with web development experience and an interest in all things IT. Need a technical solution or just general support? I can help!</p>
+                <h3><span>Freelance Developer and Virtual Assistant</span></h3>
+                <p>Behind nixwebdev is Nicolette Renner, self-taught developer and passionate freelancer</p>
                 <a href="https://www.linkedin.com/in/nicolette-renner/" className="btn">Read More</a>
             </div>
             </section>
